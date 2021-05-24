@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* componets */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/no-mobile.css";
+/* screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+  /*모든 기본색은 검정에 가까운 회색이 되도록 설정*/
+  color: #2e363e;
+
+  font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
