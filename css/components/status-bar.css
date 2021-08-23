@@ -12,6 +12,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 
 /* css hack : 2.그리곤 모든 column에 width: 33% 추가 */
