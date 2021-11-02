@@ -28,7 +28,11 @@
     z-index: 99;
     width: 100vw;
     height: 100vh;
-    background-color: var(--yellow);
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMTVfMjAy%2FMDAxNjEwNzE4MjA4NjM5.aDAXbIUdqqGLK4NZzgESGdBBGW16fGqRyE00WgwgmREg.5hFDwW2QPma5xcDil9bskHslwMFJe4ZNCAsXVfnX8gwg.JPEG.na544%2FIMG_5075.JPG&type=sc960_832");
+    /*배경화면 크기 고정*/
+    background-repeat: no-repeat;
+    background-size: cover;
+
     top: 0;
     display: flex;
     justify-content: center;
@@ -36,6 +40,11 @@
     font-size: 32px;
     font-weight: 600;
   }
+
+  #no-mobile > span {
+    text-shadow: 3px 3px 3px white;
+  }
+
   /* 스크롤 불가 설정 */
   body {
     margin: 0;
